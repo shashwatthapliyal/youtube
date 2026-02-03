@@ -2,10 +2,10 @@ import React from 'react'
 import ButtonList from './ButtonList'
 import VideosContainer from './VideosContainer'
 
-const MainContainer = () => {
+export const MainContainer = () => {
     return (
         <div>
-            <ButtonList />
+            <ButtonList/>
             <VideosContainer />
         </div>
     )
